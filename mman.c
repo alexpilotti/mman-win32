@@ -178,3 +178,15 @@ int munlock(const void *addr, size_t len)
     
     return -1;
 }
+
+int shm_open(const char *name, int oflag, mode_t mode)
+{
+    // TODO: implement
+    return -1;
+}
+
+int shm_unlink(const char *name)
+{
+    // TODO: implement
+    return -1;
+}
